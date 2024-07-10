@@ -426,7 +426,7 @@ text-decoration-line: underline;
 {
     width: 1000px;
     height: 270px;
-    border: 1px solid seagreen;
+     border: 1px solid white; 
     margin: 30px auto;
     background-image:linear-gradient(180.00deg, rgb(0, 0, 0.2),rgba(0, 0, 0, 0.2) 100%) ,url('../assets/handshake.jpg');
     background-position: center;
@@ -490,4 +490,45 @@ line-height: 23px;
 text-align: center;
 border: 0;
 background-color: rgb(255, 255, 255);
+}
+
+/* Footer section design */
+
+footer{
+    width: 1260px;
+    height: 70px;
+    margin: 30px auto;
+   
+}
+
+.footer-container
+{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;
+
+background: rgba(13, 19, 33, 0.03);
+}
+.footer-icon
+{
+    display: flex;
+    gap: 20px;
+}
+
+.footer-icon
+{
+    margin-top: 14px;
+    margin-bottom: 13px;
+    margin-right: 135px;
+}
+
+.footer-text>p
+{
+
+color: rgb(13, 19, 33);
+font-size: 12px;
+font-weight: 600;
+line-height: 23px;
+margin-top: 17px;
+margin-left: 135px;
 }
