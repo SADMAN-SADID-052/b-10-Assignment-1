@@ -242,33 +242,39 @@ margin-top: 30px;
 {
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
-    color: rgb(13, 19, 33);
     font-size: 18px;
     font-weight: 600;
     line-height: 18px;
     padding: 10px 20px;
-    cursor: pointer;
+    
 }
+
+.btnn button>a{
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+}
+
+
 
 .btn2{
     text-align: left;
     margin-top: 30px;
     
-
 }
 
 .btn2 button
 {
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
-    color: rgb(13, 19, 33);
     font-size: 18px;
     font-weight: 600;
     line-height: 18px;
     padding: 10px 20px;
-    cursor: pointer;
+}
 
-
+.btn2 button>a{
+    text-decoration: none;
+    color: rgb(13, 19, 33);
 }
 
 /* My inspiration section design */
