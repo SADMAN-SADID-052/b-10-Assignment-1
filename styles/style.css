@@ -234,6 +234,7 @@ margin-top: 30px;
     margin-top: 30px;
     margin-left: 30px;
     
+    
 
 }
 
@@ -246,6 +247,7 @@ margin-top: 30px;
     font-weight: 600;
     line-height: 18px;
     padding: 10px 20px;
+    cursor: pointer;
 }
 
 .btn2{
@@ -264,6 +266,7 @@ margin-top: 30px;
     font-weight: 600;
     line-height: 18px;
     padding: 10px 20px;
+    cursor: pointer;
 
 
 }
@@ -399,7 +402,7 @@ text-align: left;
 
 .target-text>h1{
 color: rgb(13, 19, 33);
-font-size: 20px;
+font-size: 23px;
 font-weight: 800;
 line-height: 37px;
 letter-spacing: 0%;
@@ -411,6 +414,7 @@ color: rgb(13, 19, 33);
 font-size: 12px;
 font-weight: 400;
 text-align: center;
+margin-top: 20px;
 }
 .doc1-link>a,.doc2-link>a,.doc3-link>a
 {
@@ -493,6 +497,7 @@ line-height: 23px;
 text-align: center;
 border: 0;
 background-color: rgb(255, 255, 255);
+cursor: pointer;
 }
 
 /* Footer section design */
