@@ -17,7 +17,7 @@ body{
 header
 {
     height: 570px;
-    /* border: 2px solid red; */
+     border: 2px solid white;
     width: 1260px;
     background-image:url('../assets/Hero-bg.png');
     background-size: cover;
@@ -71,7 +71,7 @@ line-height: 35px;
 
 .btn-header
 {
-    margin-top: 30px;
+    margin-top: 50px;
     text-align: center;
 }
 .abc
@@ -83,7 +83,10 @@ line-height: 35px;
     padding: 20px 40px 20px 40px;
     font-weight: 600;
     line-height: 23px;
+}
 
+.btn-header>a{
+    text-decoration: none;
 }
 
 
@@ -501,13 +504,12 @@ footer{
    
 }
 
-.footer-container
+#footer-container
 {
     display: flex;
     justify-content: space-between;
     border-radius: 16px;
-
-background: rgba(13, 19, 33, 0.03);
+    background: rgba(13, 19, 33, 0.03);
 }
 .footer-icon
 {
